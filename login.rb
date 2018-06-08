@@ -26,11 +26,11 @@ class User
 end
 
 
-jessica=User.new("Jessica", "password", "Jessica@Jessica", "19")
-puts jessica.username
-puts jessica.password
-puts jessica.email
-puts jessica.age
+sofia=User.new("Sofia", "123cats", "Sofia@Sofia", "17")
+puts sofia.username
+puts sofia.password
+puts sofia.email
+puts sofia.age
 
     
     
