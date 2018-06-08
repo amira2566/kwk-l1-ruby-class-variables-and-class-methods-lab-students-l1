@@ -10,3 +10,4 @@ class User
 end
 jessica = User.new
 jessica.name="Jessica"
+puts jessica.name
