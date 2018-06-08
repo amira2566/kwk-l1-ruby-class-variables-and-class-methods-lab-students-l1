@@ -14,4 +14,15 @@
 
 
 class User
-  attr_accessor
+  attr_accessor :username, :password, :email, :age
+  
+  #this is always initialize MAKE SURE YOU SPELL IT RIGHT
+  def initialize(username, password,email,age)
+    @username=username
+    @password=password
+    @email=email
+    @age=age
+  end
+end
+    
+    
